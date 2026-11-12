@@ -98,9 +98,9 @@ html {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  gap: 2rem;
-  min-height: 70vh;
-  margin: 0 1rem;
+  gap: 1.5rem;
+  min-height: 80vh;
+  margin: 2rem 1rem;
 }
 
 .section__pic-container {
@@ -440,12 +440,11 @@ html {
   }
 }
 
-
 @media screen and (min-width: 768px) {
   #hamburger-nav {
     display: none;
   }
-
+  
   #desktop-nav {
     display: flex;
     justify-content: space-around;
@@ -466,8 +465,8 @@ html {
   }
 
   #profile {
-    flex-direction: row;
-    gap: 1rem;
+    flex-direction: row; /* Side-by-side only on wider screens */
+    gap: 1rem;           /* Closer together like you wanted! */
     min-height: 80vh;
     margin: 0 5rem;
   }
@@ -485,7 +484,6 @@ html {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
 
 @media screen and (max-width: 1200px) {
   #profile {
