@@ -98,9 +98,9 @@ html {
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  gap: 1.5rem;
-  min-height: 80vh;
-  margin: 2rem 1rem;
+  gap: 2rem;
+  min-height: 70vh;
+  margin: 0 1rem;
 }
 
 .section__pic-container {
@@ -489,7 +489,7 @@ html {
   #profile {
     display: flex;
     height: fit-content;
-    gap: 1.5rem;
+    gap: 2rem;
     margin: 2rem 1rem;
   }
 
